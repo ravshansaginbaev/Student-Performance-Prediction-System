@@ -1,3 +1,32 @@
+# Create a virtual environment (recommended)
+python -m venv venv
+
+# Activate the virtual environment
+# Windows
+venv\Scripts\activate
+# Linux / MacOS
+source venv/bin/activate
+
+# Upgrade pip (optional)
+python -m pip install --upgrade pip
+
+# Install required Python packages
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install tensorflow
+
+
+
+
+
+
+
+
+
+
+
+
 # Student-Performance-Prediction-System
 Building a Deep Neural Network to predict whether a 03 student will pass or fail based on attendance, internal marks, and assignments. Dataset: UCI Student Performance Dataset
 
