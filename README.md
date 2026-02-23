@@ -11,7 +11,7 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 
 # Install required Python packages
-pip install - requirements.txt
+pip install -r requirements.txt
 
 
 
