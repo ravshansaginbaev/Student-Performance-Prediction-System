@@ -11,10 +11,7 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 
 # Install required Python packages
-pip install pandas
-pip install numpy
-pip install scikit-learn
-pip install tensorflow
+pip install - requirements.txt
 
 
 
